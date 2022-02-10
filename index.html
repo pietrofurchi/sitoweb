@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title>Pietro Furchì</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="some keywords that best describe your business">
+	<meta name="description" content="a short description of your company">
+	<meta name="author" content="SRPACDY">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/background.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+	
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/face.svg">
+
+</head>
+<body>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.14.2/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+<div class="header bg">
+	<div class="container">
+		<div class="row">
+			<header class="col-xs-12 text-center">
+				<div class="logo">
+					<a href="#"><img src="images/logo.png"></a>
+					<h1>Countdown per la fine dell'anno 2022</h1>
+					<ul class="time">
+						<li>
+							<span class="days" id="days"></span><br />
+							Days
+						</li>
+						<li>
+							<span class="hours"></span><br />
+							Hours
+						</li>
+						<li>
+							<span class="minutes"></span><br />
+							Minutes
+						</li>
+						<li>
+							<span class="seconds"></span><br />
+							Seconds
+						</li>
+					</ul>
+				</div>
+			</header>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<div class="down">
+					<a href="#about" class="smooth"><i class="fa fa-angle-down fa-3x"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="about" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-10">
+				<div class="col-md-6">
+					<h2>Esercizi TPSIT</h2>
+					<p>Web Service:<br>
+						<a href="https://drive.google.com/file/d/1I5Ji5_QYykjb1gy0RyLhyTagAfiJ332X/view?usp=sharing">Conversione Watt-BTU</a><br>
+						<a href="https://drive.google.com/open?id=1t66EY3jK8iThc5wuLNzWKIPRoU87HJ6v">Risolutore equazione di primo grado</a><br>
+						<a href="https://drive.google.com/open?id=1_sL3KBVTnjXE5S4pvlxJ3rR9CXDpwUOY">Calcolo area di un cubo</a><br>
+						<a href="https://drive.google.com/open?id=19-EOqpc0_InBVW21D7N1pDMeXuMR5LKf">Calcolatore codice fiscale</a><br>
+						<a href="https://drive.google.com/open?id=1_aMR2kd3FdkjRMTcOMKDmQY3kykdG7g3">Calcolatore massa corporea</a><br>
+						<a href="https://drive.google.com/open?id=13k2aJ7yKMpLplv-g88Mg-dhkiqAO1Mhj">Calcolatrice</a></p>
+						<p>WPF vari:<br>
+						<a href="https://drive.google.com/open?id=1LNCyWBaGyMKZBpLyvVoKnNrA21I9iiGk">Calcolo area e perimetro avendo le diagonali</a><br>
+						<a href="https://drive.google.com/file/d/1-x7SvI2qT7HQxerB153PPqnSKxTceeXz/view?usp=sharing">Ricerca tag in una pagina HTML</a><br>
+						</p>
+						<p>TCP UDP:<br>
+						<a href="https://drive.google.com/file/d/1lZ1HLyry_TN1FNwZxJ1j-iGnhdDP32Di/view?usp=sharing">Vari esercizi svolti sia in TCP che UDP</a>
+						</p>
+				</div>
+				<div class="col-md-6">
+					<h2>Esercizi Informatica</h2>
+					<p>Form:<br>
+						<a href="https://drive.google.com/open?id=1UqnsdJvJ28qnno5N6-mXiARAPcopUGHF">Parte web dell'elaborato "Novarainfo" 2019-2020</a><br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<div class="features-content">
+					<header>
+						<h2>Informazioni sul sito</h2>
+					</header>
+					<div class="grid clearfix">
+						<div class="col-sm-4 text-center">
+							<i class="fa fa-mobile fa-5x"></i>
+							<b>Responsive design</b>
+							<p>Sito in grado di adattarsi allo schermo.</p>
+						</div>
+						<div class="col-sm-4 text-center">
+							<i class="fa fa-clock-o fa-4x"></i>
+							<b>Countdown alla fine</b>
+							<p>Quanto tempo manca alla fine dell'anno.</p>
+						</div>
+						<div class="col-sm-4 text-center">
+							<i class="fa fa-code fa-4x"></i>
+							<b>Codice del sito</b>
+							<p><a href="https://github.com/pietrofurchi">Cliccando qui</a> puoi andare a vedere il codice del sito</p>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+</div>
+<div class="social">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<div class="social-content">
+					<h2>Social Media utili</h2>
+					<div class="socmed">
+						<a href="https://instagram.com/pietrofurchi" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+					</div>
+					<div class="socmed">
+						<a href="https://www.linkedin.com/in/pietro-furch%C3%AC/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+						
+					</div>					
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">				
+				<div class="copy">Pietro Furchì</a></div>
+			</div>			
+		</div>
+	</div>
+</div>
+
+
+
+	<!-- JS
+	================================================== -->
+	
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/scroll.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/countdown.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/supersized.3.2.7.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/images.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/form.js" charset="utf-8"></script>
+
+	<!-- End Document
+	================================================== -->
+	<!-- Struttura presa da: https://www.free-css.com/free-css-templates/page254/piuma -->
+</body>
+</html>
